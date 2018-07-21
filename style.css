@@ -1,0 +1,23 @@
+#btnSubmit {
+    background-color: white;
+    color: green;
+    width: 250px;
+} 
+#btnSize   {
+    background-color: white;
+    color:red;
+}
+#btnDelChar ,#btnDelAll {
+    background-color: white;
+    color:red;
+    height: 45px;
+    width : 44px;
+}
+#btnSize:hover , #btnDelChar:hover, #btnDelAll:hover {
+    background-color : red  ; 
+    color: white;
+}
+#btnSubmit:hover{
+    background-color: green;
+    color: white;
+}
