@@ -1,7 +1,3 @@
-#btnSubmit {
-    background-color: white;
-    color: lightblue;
-} 
 #btnSize   {
     background-color: white;
     color:red;
@@ -17,11 +13,6 @@
     background-color : red  ; 
     color: white;
 }
-#btnSubmit:hover{
-    background-color: lightblue;
-    color: white;
-}
-
 .form-signin
 {
     max-width: 330px;
