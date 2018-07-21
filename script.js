@@ -16,7 +16,5 @@ function deleteLastChar() {
     let val = document.getElementById('pwd').value;
     document.getElementById('pwd').value = val.substr(0, val.length - 1);
   }
-function send() {
-    console.log("ok");
-}
+
 
