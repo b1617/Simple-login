@@ -10,7 +10,7 @@
     margin-left: 150%;
 }
 #btnSize:hover , #btnDelChar:hover, #btnDelAll:hover {
-    background-color : red  ; 
+    background-color : lightcoral  ; 
     color: white;
 }
 .form-signin
