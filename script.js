@@ -1,5 +1,10 @@
 function sendVal(x) {
+
     document.getElementById("pwd").value += x;
+    let email = document.getElementById("email").value;
+    if (email != "") {
+        document.getElementById("btnSubmit").disabled = false;
+    }
 }
 
 function shuffle(a) {
@@ -11,21 +16,21 @@ function shuffle(a) {
 }
 function deletePwd() {
     document.getElementById('pwd').value = '';
+    document.getElementById('btnSubmit').disabled = true;
 }
 function deleteLastChar() {
     let val = document.getElementById('pwd').value;
     document.getElementById('pwd').value = val.substr(0, val.length - 1);
+    if (val.length == 1) {
+        document.getElementById('btnSubmit').disabled = true;
+
+    }
 }
 
 function send() {
     let email = document.getElementById('email').value;
     let pwd = document.getElementById('pwd').value;
-    if (pwd == '') {
-        alert('add password');
-        return false;
+    alert(email + " " + pwd);
 
-    } else {
-        alert(email + " "  + pwd);
-    }
 }
 

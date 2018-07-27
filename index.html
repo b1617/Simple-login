@@ -75,12 +75,20 @@
     <script>
         $('#btnSubmit').prop('disabled', true);
         $('#email').keyup(function () {
-            if ($(this).val() != '') {
+            if ($(this).val() != '' && $('#pwd').val() != '') {
                 $('#btnSubmit').prop('disabled', false);
             } else {
                 $('#btnSubmit').prop('disabled', true);
             }
         });
+
+        
+           
+   
+
+
+       
+       
     </script>
 
     <!-- Optional JavaScript -->
